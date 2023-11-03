@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+    --primary-color: #952D76;
+    --background-color: #D7CFBA; 
+    --card-background-color: #F45D48; 
+    --font-primary: #222020; 
+    --font-secondary: #020c12; 
+    --font-tertiary: rgb(233, 219, 219);
+    --font-family: 'Playfair Display', serif; 
+    --base-font-size: 16px;
+    --letter-spacing: 2px;
+    --border-radius: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-primary);
+}
+
+.nav-heading {
+    letter-spacing: var(--letter-spacing);
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+}
+
+.prim-color {
+    background-color: var(--primary-color);
+}
+
+button span i {
+    color: var(--font-primary);
+    font-size: 2rem;
+}
+
+h5 {
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    color: var(--font-secondary);
+}
+
+#heading {
+    margin-top: 4rem;
+}
+
+.quote {
+    letter-spacing: var(--letter-spacing);
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 2.8rem;
+    border-radius: var(--border-radius);
+    padding: 0 20px !important;
+    font-size: 1.2rem;
+}
+
+
+
+
+#card {
+    transition: transform 0.3s, background-color 0.3s;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    color: var(--font-primary); 
+    background-color: rgb(201, 169, 26);
+}
+
+#card:hover {
+    transform: scale(1.05);
+    background-color: #cb5c2c; 
+    cursor: pointer;
+}
+
+#card img {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.card-title {
+    letter-spacing: var(--letter-spacing);
+}
+
+#meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    background-color: #b976a5;
+    color: var(--font-tertiary);
+}
+
+#meal-header {
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbnail img {
+    height: 300px;
+    width: 300px;
+    border-radius: var(--border-radius);
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+    color: var(--font-primary);
+}
+
+#favourites-body {
+    background-color: #333333; 
+}
