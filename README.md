@@ -34,3 +34,8 @@ Create a delightful meal app using vanilla JavaScript, connecting to [TheMeal AP
 
    ```bash
    git clone https://github.com/SenArnab/meal-app.git
+
+## Hosted link
+
+ - https://senarnab.github.io/Meal-App-using-Vanilla-JS/
+
